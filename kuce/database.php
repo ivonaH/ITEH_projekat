@@ -85,7 +85,7 @@ $podatak = md5(SALT . md5($podatak));
 	function delete ($table,  $keys, $values)
 {
 $delete = "DELETE FROM ".$table." WHERE ".$keys[0]." = '".$values[0]."'";
-//echo $delete;
+
 if ($this->ExecuteQuery($delete))
 return true;
 else return false;
@@ -162,6 +162,12 @@ function dajRase() {
 		
 		$q = "SELECT * FROM pas";	
 		$this->ExecuteQuery($q);	
+}
+
+function dajKorisnike() {
+		
+	$q = "SELECT * FROM korisnici";	
+	$this->ExecuteQuery($q);	
 }
 	function ExecuteQuery($query)
 	{
