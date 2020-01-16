@@ -1,20 +1,15 @@
 {
-    "name": "mikecao/flight",
-    "description": "Flight is a fast, simple, extensible framework for PHP. Flight enables you to quickly and easily build RESTful web applications.",
-    "homepage": "http://flightphp.com",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Mike Cao",
-            "email": "mike@mikecao.com",
-            "homepage": "http://www.mikecao.com/",
-            "role": "Original Developer"
-        }
-    ],
-    "require": {
-        "php": ">=5.3.0"
-    },
-    "autoload": {
-        "files": [ "flight/autoload.php", "flight/Flight.php" ]
-    }
+	"name": "datatables/datatables",
+	"version": "1.10.4",
+	"description": "DataTables is a plug-in for the jQuery Javascript library. It is a highly flexible tool, based upon the foundations of progressive enhancement, which will add advanced interaction controls to any HTML table.", 
+	"homepage": "http://www.datatables.net/",
+	"author": "SpryMedia", 
+	"license": [
+		"MIT"
+	],
+	"prefer-stable": true,
+	"support": {
+		"forum": "https://datatables.net/forums",
+		"source": "https://github.com/DataTables/DataTablesSrc/"
+	}
 }
